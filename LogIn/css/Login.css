@@ -35,7 +35,7 @@ input {
     padding: 8px;
     margin: 10px;
     width: 260px;
-    border-radius: 50px;
+    border-radius: 10px;
     border: 0px;
     box-shadow: inset 0px 0px 8px rgb(230, 228, 228);
 }
