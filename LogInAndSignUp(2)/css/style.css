@@ -7,3 +7,95 @@ body {
     font-family: "poppins", sans-serif;
     font-size: 12pt;
 }
+
+
+/* form */
+
+form {
+    width: 350px;
+    margin-top: 70px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 12px 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* image in form */
+
+.image {
+    margin-top: 50px;
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.3), 7px 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image:hover {
+    transform: scale(2);
+    transition: .4s ease-in;
+}
+
+
+/* heading of form */
+
+.heading {
+    color: #42c9ee;
+    margin: 5px 0px;
+}
+
+
+/* inputs of forms */
+
+input {
+    width: 260px;
+    margin: 5px;
+    padding: 8px;
+    color: #42c9ee;
+    border: 1px solid #42c9ee;
+    border-bottom-width: 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: "poppins", sans-serif;
+}
+
+input:focus {
+    width: 280px;
+    transition: .3s;
+}
+
+input::placeholder {
+    color: rgb(204, 202, 202);
+}
+
+
+/* buttons of form */
+
+#btn {
+    cursor: pointer;
+    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 8px 8px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    background: #42c9ee;
+    font-weight: bold;
+}
+
+#btn:hover {
+    border: none;
+    background: #3eb7d8;
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+#btn:active {
+    background: #318ca5;
+}
+
+p {
+    padding: 0px 0px 20px 0px;
+}
+
+a {
+    color: rgb(172, 171, 171);
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+a:hover {
+    color: #42c9ee;
+}
