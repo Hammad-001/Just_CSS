@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #3eb7d8;
+    background-color: rgba(255, 138, 4, 0.863);
     font-family: "poppins", sans-serif;
     font-size: 12pt;
 }
@@ -12,32 +12,20 @@ body {
 /* form */
 
 form {
-    width: 350px;
-    margin-top: 70px;
-    border-radius: 40px;
-    background-color: white;
-    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 12px 12px 12px rgba(0, 0, 0, 0.1);
-}
-
-
-/* image in form */
-
-.image {
-    margin-top: 50px;
-    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.3), 7px 7px 5px rgba(0, 0, 0, 0.2);
-}
-
-.image:hover {
-    transform: scale(2);
-    transition: .4s ease-in;
+    width: 400px;
+    margin: 150px 0px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 0px 20px 10px rgba(255, 70, 37, 0.267);
 }
 
 
 /* heading of form */
 
 .heading {
-    color: #42c9ee;
-    margin: 5px 0px;
+    color: rgb(187, 51, 27);
+    font-size: 20pt;
+    margin: 30px 0px 10px 0px;
 }
 
 
@@ -47,21 +35,20 @@ input {
     width: 260px;
     margin: 5px;
     padding: 8px;
-    color: #42c9ee;
-    border: 1px solid #42c9ee;
-    border-bottom-width: 10px;
-    border: 0px;
-    border-radius: 10px;
+    color: rgb(77, 20, 10);
+    border: none;
+    border-radius: 7px;
     font-family: "poppins", sans-serif;
 }
 
 input:focus {
-    width: 280px;
+    outline: none;
+    width: 300px;
     transition: .3s;
 }
 
 input::placeholder {
-    color: rgb(204, 202, 202);
+    color: rgb(170, 169, 169);
 }
 
 
@@ -69,33 +56,32 @@ input::placeholder {
 
 #btn {
     cursor: pointer;
-    box-shadow: -8px -8px 8px rgba(255, 255, 255, 0.2), 8px 8px 8px rgba(0, 0, 0, 0.1);
-    color: white;
-    background: #42c9ee;
+    box-shadow: -8px -8px 8px rgba(255, 70, 37, 0.267), 12px 12px 12px rgba(128, 36, 20, 0.24);
+    color: rgb(110, 31, 17);
+    background-color: rgb(255, 67, 34);
+    width: 150px;
     font-weight: bold;
 }
 
 #btn:hover {
     border: none;
-    background: #3eb7d8;
+    color: rgb(255, 67, 34);
+    background-color: rgb(110, 31, 17);
     transform: scale(1.1);
     transition: 0.3s ease-in;
 }
 
-#btn:active {
-    background: #318ca5;
-}
-
 p {
     padding: 0px 0px 20px 0px;
+    color: rgb(110, 31, 17);
 }
 
 a {
-    color: rgb(172, 171, 171);
+    color: rgb(155, 45, 25);
     text-decoration: none;
     font-size: 11pt;
 }
 
 a:hover {
-    color: #42c9ee;
+    color: rgb(110, 31, 17);
 }
